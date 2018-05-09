@@ -1,0 +1,13 @@
+{
+  "name": "generate-json-schema",
+  "version": "1.0.0",
+  "description": "Turn a JSON file into a JSON Schema Object to use for validation",
+  "scripts": {
+    "gen": "$(npm bin)/json-schema-generator input.json -o schemas/output.json -f"
+  },
+  "author": "TJ Hillard",
+  "license": "ISC",
+  "dependencies": {
+    "json-schema-generator": "^2.0.6"
+  }
+}
